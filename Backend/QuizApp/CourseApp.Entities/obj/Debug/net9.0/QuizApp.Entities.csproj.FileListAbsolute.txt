@@ -1,0 +1,15 @@
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\QuizApp.Entities.deps.json
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\QuizApp.Entities.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\QuizApp.Entities.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\Core.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\Core.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.csproj.AssemblyReference.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.AssemblyInfoInputs.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.AssemblyInfo.cs
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.csproj.CoreCompileInputs.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp..8FFA844D.Up2Date
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\refint\QuizApp.Entities.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\QuizApp.Entities.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\ref\QuizApp.Entities.dll

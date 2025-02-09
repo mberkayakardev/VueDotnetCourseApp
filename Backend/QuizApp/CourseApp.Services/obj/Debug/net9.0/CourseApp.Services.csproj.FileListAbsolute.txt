@@ -1,0 +1,5 @@
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Services\obj\Debug\net9.0\CourseApp.Services.csproj.AssemblyReference.cache
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Services\obj\Debug\net9.0\CourseApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Services\obj\Debug\net9.0\CourseApp.Services.AssemblyInfoInputs.cache
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Services\obj\Debug\net9.0\CourseApp.Services.AssemblyInfo.cs
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Services\obj\Debug\net9.0\CourseApp.Services.csproj.CoreCompileInputs.cache

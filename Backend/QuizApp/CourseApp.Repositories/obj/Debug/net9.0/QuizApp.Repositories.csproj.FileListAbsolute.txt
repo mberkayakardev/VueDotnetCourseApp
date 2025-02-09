@@ -1,0 +1,17 @@
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\QuizApp.Repositories.deps.json
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\QuizApp.Repositories.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\QuizApp.Repositories.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\Core.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\QuizApp.Entities.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\QuizApp.Entities.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\bin\Debug\net9.0\Core.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.csproj.AssemblyReference.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.AssemblyInfoInputs.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.AssemblyInfo.cs
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.csproj.CoreCompileInputs.cache
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp..A705AEBD.Up2Date
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\refint\QuizApp.Repositories.dll
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\QuizApp.Repositories.pdb
+D:\Github\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\obj\Debug\net9.0\ref\QuizApp.Repositories.dll

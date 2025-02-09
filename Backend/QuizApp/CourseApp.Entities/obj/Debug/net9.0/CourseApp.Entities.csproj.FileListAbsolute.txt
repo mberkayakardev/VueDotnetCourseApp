@@ -1,0 +1,15 @@
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\CourseApp.Entities.deps.json
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\CourseApp.Entities.dll
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\CourseApp.Entities.pdb
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\Core.dll
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\bin\Debug\net9.0\Core.pdb
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.csproj.AssemblyReference.cache
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.AssemblyInfoInputs.cache
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.AssemblyInfo.cs
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.csproj.CoreCompileInputs.cache
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseAp.158D0C74.Up2Date
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.dll
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\refint\CourseApp.Entities.dll
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\CourseApp.Entities.pdb
+D:\Github\BasicVueNetApp\Backend\QuizApp\QuizApp.Entities\obj\Debug\net9.0\ref\CourseApp.Entities.dll

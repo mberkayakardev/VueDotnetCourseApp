@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\concrete\\services\\authenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\abstract\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\concrete\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\concrete\\messages\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Repositories\\QuizApp.Repositories.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.repositories\\entityframework\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\concrete\\services\\appusermanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\quizapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\abstract\\iappuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\utilities\\results\\api\\baseresult\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\api\\baseresult\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\utilities\\results\\api\\baseresult\\apidataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\api\\baseresult\\apidataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\utilities\\results\\api\\baseresult\\iapiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\api\\baseresult\\iapiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\utilities\\results\\api\\baseresult\\iapidataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\api\\baseresult\\iapidataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\dtos\\concrete\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\dtos\\concrete\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\dtos\\concrete\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\dtos\\concrete\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\dtos\\concrete\\clienttokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\dtos\\concrete\\clienttokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|d:\\github\\basicvuenetapp\\backend\\quizapp\\core\\dtos\\concrete\\clientlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}|Core\\Core.csproj|solutionrelative:core\\dtos\\concrete\\clientlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694737F9-E1D6-465C-9B65-2D1225F7E7AB}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Dtos\\QuizApp.Dtos.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.dtos\\concrete\\appentities\\appuser\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.services\\concrete\\dependencyresolves\\microsoft\\microsoftioccontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\TokenService.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\TokenService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:15:09.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\ITokenService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\ITokenService.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\ITokenService.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:15:04.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Repositories\\EntityFramework\\Abstract\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Repositories\\EntityFramework\\Abstract\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Repositories\\EntityFramework\\Abstract\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Repositories\\EntityFramework\\Abstract\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:06:51.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppUserManagers.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AppUserManagers.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AppUserManagers.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AppUserManagers.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AppUserManagers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:04:08.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAuthenticationService.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAuthenticationService.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:49:00.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationManager.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AuthenticationManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AuthenticationManager.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AuthenticationManager.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Services\\AuthenticationManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAjwCoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:49:22.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuizApp.Services",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\QuizApp.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-09T17:04:04.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAppUserService.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAppUserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAppUserService.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAppUserService.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Abstract\\IAppUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:01:27.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Messages\\Messages.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Messages\\Messages.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Messages\\Messages.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\Messages\\Messages.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA4AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:59:16.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiDataResult.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\ApiDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Api\\BaseResult\\ApiDataResult.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\ApiDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Api\\BaseResult\\ApiDataResult.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:58:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IApiResult.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\IApiResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Api\\BaseResult\\IApiResult.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\IApiResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Api\\BaseResult\\IApiResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:01:53.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Core\\Dtos\\Concrete\\TokenDto.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\TokenDto.cs",
+              "RelativeToolTip": "Core\\Dtos\\Concrete\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:55:44.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiResult.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\ApiResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Api\\BaseResult\\ApiResult.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\ApiResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Api\\BaseResult\\ApiResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:51:04.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\Client.cs",
+              "RelativeDocumentMoniker": "Core\\Dtos\\Concrete\\Client.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\Client.cs",
+              "RelativeToolTip": "Core\\Dtos\\Concrete\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:55:39.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientTokenDto.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\ClientTokenDto.cs",
+              "RelativeDocumentMoniker": "Core\\Dtos\\Concrete\\ClientTokenDto.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\ClientTokenDto.cs",
+              "RelativeToolTip": "Core\\Dtos\\Concrete\\ClientTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:55:09.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IApiDataResult.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\IApiDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Api\\BaseResult\\IApiDataResult.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Utilities\\Results\\Api\\BaseResult\\IApiDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Api\\BaseResult\\IApiDataResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:51:52.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientLoginDto.cs",
+              "DocumentMoniker": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\ClientLoginDto.cs",
+              "RelativeDocumentMoniker": "Core\\Dtos\\Concrete\\ClientLoginDto.cs",
+              "ToolTip": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Dtos\\Concrete\\ClientLoginDto.cs",
+              "RelativeToolTip": "Core\\Dtos\\Concrete\\ClientLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:55:48.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Dtos\\Concrete\\AppEntities\\AppUser\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Dtos\\Concrete\\AppEntities\\AppUser\\LoginDto.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Dtos\\Concrete\\AppEntities\\AppUser\\LoginDto.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Dtos\\Concrete\\AppEntities\\AppUser\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:53:06.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MicrosoftIOCContainer.cs",
+              "DocumentMoniker": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOCContainer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOCContainer.cs",
+              "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOCContainer.cs",
+              "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.Services\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOCContainer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:49:09.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
