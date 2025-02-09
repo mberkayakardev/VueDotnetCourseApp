@@ -8,22 +8,22 @@ namespace Core.Utilities.Results.MVC.BaseResult
         public string Messages { get; }
         public ApiResultStatus Status { get; }
         public IEnumerable<ErrorModel> ValidationErrors { get; }
-        protected ApiResult(ApiResultStatus status, string StatusMessages, IEnumerable<ErrorModel> Errors) : this(status, StatusMessages)
+        public ApiResult(ApiResultStatus status, string StatusMessages, IEnumerable<ErrorModel> Errors) : this(status, StatusMessages)
         {
             ValidationErrors = Errors;
         }
 
-        protected ApiResult(ApiResultStatus status, string StatusMessages) : this(status)
+        public ApiResult(ApiResultStatus status, string StatusMessages) : this(status)
         {
             Messages = StatusMessages;
         }
 
-        protected ApiResult(ApiResultStatus status)
+        public ApiResult(ApiResultStatus status)
         {
             Status = status;
         }
 
-        protected ApiResult(ApiResultStatus status, IEnumerable<ErrorModel> Errors) : this(status, string.Empty, Errors)
+        public ApiResult(ApiResultStatus status, IEnumerable<ErrorModel> Errors) : this(status, string.Empty, Errors)
         {
 
         }
