@@ -71,6 +71,16 @@
 
 * Vue.js   
 
+* Vuetfy
+
+* VeeValidate
+
+* Yup
+
+* SweetAlert
+
+* ToastNotification
+
 * BootsWatch
 
 * Bootstrap
