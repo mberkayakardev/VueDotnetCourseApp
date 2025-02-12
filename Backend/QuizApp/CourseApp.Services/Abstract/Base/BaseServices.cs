@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using QuizApp.Repositories.EntityFramework.Abstract;
 
 namespace QuizApp.Services.Abstract.Base
 {

@@ -5,15 +5,15 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp.API", "..\..\..\SınavUygulamasi\Backend\QuizApp\QuizApp.API\QuizApp.API.csproj", "{5390A7EE-D03D-4B20-9675-D38824629586}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Dtos", "..\..\..\SınavUygulamasi\Backend\QuizApp\CourseApp.Dtos\CourseApp.Dtos.csproj", "{47389E09-1552-4DFC-A391-4DF04792D013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp.Services", "..\..\..\SınavUygulamasi\Backend\QuizApp\QuizApp.Services\QuizApp.Services.csproj", "{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Entities", "..\..\..\SınavUygulamasi\Backend\QuizApp\CourseApp.Entities\CourseApp.Entities.csproj", "{AC831D22-E54F-4E81-85D1-F5EBCA32DF60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp.Repositories", "..\..\..\SınavUygulamasi\Backend\QuizApp\QuizApp.Repositories\QuizApp.Repositories.csproj", "{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Repositories", "..\..\..\SınavUygulamasi\Backend\QuizApp\CourseApp.Repositories\CourseApp.Repositories.csproj", "{3D4C5D22-BB56-4F8B-A955-5F2B52E6CC12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp.Entities", "..\..\..\SınavUygulamasi\Backend\QuizApp\QuizApp.Entities\QuizApp.Entities.csproj", "{3929DF7A-ADF3-4942-B352-F82BB74EC27B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Services", "..\..\..\SınavUygulamasi\Backend\QuizApp\CourseApp.Services\CourseApp.Services.csproj", "{2CC44DE0-D401-4B4E-B9A6-C6FA68544156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp.Dtos", "..\..\..\SınavUygulamasi\Backend\QuizApp\QuizApp.Dtos\QuizApp.Dtos.csproj", "{694737F9-E1D6-465C-9B65-2D1225F7E7AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.API", "..\..\..\SınavUygulamasi\Backend\QuizApp\CourseApp.API\CourseApp.API.csproj", "{531609BA-B8FC-4733-B8CF-3AB82AF54D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,26 +25,26 @@ Global
 		{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DE1D28-2F8D-4A75-B4C8-5BBBEE0E38FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5390A7EE-D03D-4B20-9675-D38824629586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5390A7EE-D03D-4B20-9675-D38824629586}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5390A7EE-D03D-4B20-9675-D38824629586}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5390A7EE-D03D-4B20-9675-D38824629586}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F91B9E30-2E71-45C8-AFC0-B8E2C81628C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E98B0E56-0CD1-402B-954D-A2F5BDB6D7C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3929DF7A-ADF3-4942-B352-F82BB74EC27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3929DF7A-ADF3-4942-B352-F82BB74EC27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3929DF7A-ADF3-4942-B352-F82BB74EC27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3929DF7A-ADF3-4942-B352-F82BB74EC27B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{694737F9-E1D6-465C-9B65-2D1225F7E7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{694737F9-E1D6-465C-9B65-2D1225F7E7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{694737F9-E1D6-465C-9B65-2D1225F7E7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{694737F9-E1D6-465C-9B65-2D1225F7E7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47389E09-1552-4DFC-A391-4DF04792D013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47389E09-1552-4DFC-A391-4DF04792D013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47389E09-1552-4DFC-A391-4DF04792D013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47389E09-1552-4DFC-A391-4DF04792D013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC831D22-E54F-4E81-85D1-F5EBCA32DF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC831D22-E54F-4E81-85D1-F5EBCA32DF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC831D22-E54F-4E81-85D1-F5EBCA32DF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC831D22-E54F-4E81-85D1-F5EBCA32DF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4C5D22-BB56-4F8B-A955-5F2B52E6CC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4C5D22-BB56-4F8B-A955-5F2B52E6CC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4C5D22-BB56-4F8B-A955-5F2B52E6CC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4C5D22-BB56-4F8B-A955-5F2B52E6CC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC44DE0-D401-4B4E-B9A6-C6FA68544156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC44DE0-D401-4B4E-B9A6-C6FA68544156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC44DE0-D401-4B4E-B9A6-C6FA68544156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC44DE0-D401-4B4E-B9A6-C6FA68544156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531609BA-B8FC-4733-B8CF-3AB82AF54D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531609BA-B8FC-4733-B8CF-3AB82AF54D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531609BA-B8FC-4733-B8CF-3AB82AF54D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531609BA-B8FC-4733-B8CF-3AB82AF54D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

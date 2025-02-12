@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuizApp.Repositories\CourseApp.Repositories.csproj" />
+    <ProjectReference Include="..\CourseApp.Dtos\CourseApp.Dtos.csproj" />
+    <ProjectReference Include="..\CourseApp.Repositories\CourseApp.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

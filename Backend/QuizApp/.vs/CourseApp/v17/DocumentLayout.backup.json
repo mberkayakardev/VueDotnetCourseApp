@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5390A7EE-D03D-4B20-9675-D38824629586}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\QuizApp.API.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5390A7EE-D03D-4B20-9675-D38824629586}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\QuizApp.API.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.api\\quizapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\QuizApp.API.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5390A7EE-D03D-4B20-9675-D38824629586}|..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\QuizApp.API.csproj|d:\\github\\s\u0131navuygulamasi\\backend\\quizapp\\quizapp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,8 +31,7 @@
               "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\QuizApp.API.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-09T20:35:26.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T20:35:26.87Z"
             },
             {
               "$type": "Document",
@@ -42,10 +41,8 @@
               "RelativeDocumentMoniker": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\Program.cs",
               "ToolTip": "D:\\Github\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\Program.cs",
               "RelativeToolTip": "..\\..\\..\\S\u0131navUygulamasi\\Backend\\QuizApp\\QuizApp.API\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:30:19.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T20:30:19.402Z"
             },
             {
               "$type": "Document",

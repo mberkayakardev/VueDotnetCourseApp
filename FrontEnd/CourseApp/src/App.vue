@@ -1,18 +1,15 @@
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-  <RouterView />
+        <Landinghead/>
+
+
+      
+      <RouterView /> <!-- router çalışabilmesi için routerview komponentimizi geçmemiz gerekiyor (İlgili path te ilgili componentin çalışmasını sağlar)  -->
 </template>
-
-
 <script setup>
+import Landinghead from './components/Landing/Header/Header.vue'
+
+
 </script>
 
 

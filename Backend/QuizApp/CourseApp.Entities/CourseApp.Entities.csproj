@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\..\..\..\BasicVueNetApp\Backend\QuizApp\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

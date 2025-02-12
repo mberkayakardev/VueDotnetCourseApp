@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.API\\CourseApp.API.csproj": {}
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.API\\CourseApp.API.csproj": {}
   },
   "projects": {
     "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Core.csproj": {
@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[11.11.0, )"
             },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -88,14 +92,14 @@
         }
       }
     },
-    "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.API\\CourseApp.API.csproj": {
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.API\\CourseApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.API\\CourseApp.API.csproj",
+        "projectUniqueName": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.API\\CourseApp.API.csproj",
         "projectName": "CourseApp.API",
-        "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.API\\CourseApp.API.csproj",
+        "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.API\\CourseApp.API.csproj",
         "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.API\\obj\\",
+        "outputPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +121,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\CourseApp.Services.csproj": {
-                "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\CourseApp.Services.csproj"
+              "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\CourseApp.Services.csproj": {
+                "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\CourseApp.Services.csproj"
               }
             }
           }
@@ -142,6 +146,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.12, )"
             }
           },
           "imports": [
@@ -167,14 +175,14 @@
         }
       }
     },
-    "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\CourseApp.Entities.csproj": {
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\CourseApp.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\CourseApp.Entities.csproj",
-        "projectName": "CourseApp.Entities",
-        "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\CourseApp.Entities.csproj",
+        "projectUniqueName": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\CourseApp.Dtos.csproj",
+        "projectName": "CourseApp.Dtos",
+        "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\CourseApp.Dtos.csproj",
         "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\obj\\",
+        "outputPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -237,14 +245,14 @@
         }
       }
     },
-    "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\CourseApp.Repositories.csproj": {
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\CourseApp.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\CourseApp.Repositories.csproj",
-        "projectName": "CourseApp.Repositories",
-        "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\CourseApp.Repositories.csproj",
+        "projectUniqueName": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\CourseApp.Entities.csproj",
+        "projectName": "CourseApp.Entities",
+        "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\CourseApp.Entities.csproj",
         "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\obj\\",
+        "outputPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -266,8 +274,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\CourseApp.Entities.csproj": {
-                "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Entities\\CourseApp.Entities.csproj"
+              "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Core.csproj": {
+                "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\Core\\Core.csproj"
               }
             }
           }
@@ -307,14 +315,14 @@
         }
       }
     },
-    "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\CourseApp.Services.csproj": {
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\CourseApp.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\CourseApp.Services.csproj",
-        "projectName": "CourseApp.Services",
-        "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\CourseApp.Services.csproj",
+        "projectUniqueName": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\CourseApp.Repositories.csproj",
+        "projectName": "CourseApp.Repositories",
+        "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\CourseApp.Repositories.csproj",
         "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Services\\obj\\",
+        "outputPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -336,8 +344,81 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\CourseApp.Repositories.csproj": {
-                "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\QuizApp\\QuizApp.Repositories\\CourseApp.Repositories.csproj"
+              "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\CourseApp.Entities.csproj": {
+                "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Entities\\CourseApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\CourseApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\CourseApp.Services.csproj",
+        "projectName": "CourseApp.Services",
+        "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\CourseApp.Services.csproj",
+        "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mberk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\CourseApp.Dtos.csproj": {
+                "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Dtos\\CourseApp.Dtos.csproj"
+              },
+              "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\CourseApp.Repositories.csproj": {
+                "projectPath": "D:\\Github\\SınavUygulamasi\\Backend\\QuizApp\\CourseApp.Repositories\\CourseApp.Repositories.csproj"
               }
             }
           }
