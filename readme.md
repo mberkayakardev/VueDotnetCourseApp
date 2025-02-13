@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 <h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
- <!-- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/welcome.png?raw=true" > -->
+<img src ="https://github.com/mberkayakardev/VueDotnetCourseApp/blob/master/D%C3%B6k%C3%BCmanlar/LoginScreen.png?raw=true" >
  
 
 
@@ -91,13 +91,3 @@
 
 
 
-<!-- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/Resume.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/Projects.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/detail.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/notfoundpage.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/login.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/last.png?raw=true" >
- <img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/1.png?raw=true" >
-<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/2.png?raw=true" >
-<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/3.png?raw=true" >
-<img src ="https://github.com/mberkayakardev/ResumePage/blob/master/%C4%B0%C3%A7erik/Resimler/4.png?raw=true" > -->
