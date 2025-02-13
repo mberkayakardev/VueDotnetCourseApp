@@ -14,22 +14,18 @@
             <RouterLink to="/about" class="nav-link">Hakkında</RouterLink>
         </li>
       </ul>
+      <ul class="navbar-nav mr-5 " >
+        <li class="nav-item">
+            <RouterLink to="/signin" class="nav-link">Giriş Yap</RouterLink>
+        </li>
+        </ul>
     </div>
   </div>
 </nav> 
 </template>
 
 
-<script>
-
-export default{
-    name : 'LandingHeader',
-    data(){
-        return({
-        })
-    }
-}
-
+<script >
 
 
 

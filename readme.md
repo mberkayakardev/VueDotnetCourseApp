@@ -79,6 +79,10 @@
 
 * SweetAlert
 
+* Pinia
+
+* Axios
+
 * ToastNotification
 
 * BootsWatch
