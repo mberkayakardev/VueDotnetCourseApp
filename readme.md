@@ -34,6 +34,9 @@
 <h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
 <img src ="https://github.com/mberkayakardev/VueDotnetCourseApp/blob/master/D%C3%B6k%C3%BCmanlar/LoginScreen.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/VueDotnetCourseApp/blob/master/D%C3%B6k%C3%BCmanlar/KurslarListesi.png?raw=true" >
+
+
  
 
 
