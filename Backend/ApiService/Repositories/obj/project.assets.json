@@ -5519,11 +5519,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\obj\\",
+      "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5545,8 +5545,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Entities\\Entities.csproj"
+            "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Entities\\Entities.csproj"
             }
           }
         }

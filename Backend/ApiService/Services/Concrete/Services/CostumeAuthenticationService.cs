@@ -16,10 +16,12 @@ namespace Services.Concrete.Services
     {
         private readonly List<Client> _clients;
         private readonly ITokenService _tokenService;
-        public CostumeAuthenticationService(IUnitOfWork unitOfWork, IMapper mapper, IOptions<List<Client>> clients, ITokenService tokenService) : base(unitOfWork, mapper)
+        private readonly IAppUserRepositories _userRepositories;
+        public CostumeAuthenticationService(IUnitOfWork unitOfWork, IMapper mapper, IOptions<List<Client>> clients, ITokenService tokenService, IAppUserRepositories userRepositories) : base(unitOfWork, mapper)
         {
             _clients = clients.Value;
             _tokenService = tokenService;
+            _userRepositories = userRepositories;
         }
 
         public async Task<IApiDataResult<TokenDto>> CreateTokenAsync(LoginDto loginDto)
@@ -29,29 +31,29 @@ namespace Services.Concrete.Services
 
             var AppUserRepository = _unitOfWork.GetGenericRepositories<AppUser>();
 
-            var AppUser = await AppUserRepository.GetAsync(x => x.NormalizedUserEmail == loginDto.Email && x.IsActive == true);
-            if (AppUser == null)
+            var Appuser = await _userRepositories.GetUserByIdIdentityInformation(x => x.NormalizedUserEmail == loginDto.Email && x.IsActive == true);
+            if (Appuser == null)
                 return new ApiDataResult<TokenDto>(null, Core.Utilities.Results.MVC.ComplexTypes.ApiResultStatus.BadRequest, Messages.User.GirisBilgileriHatali);
 
-            if (AppUser.PasswordHash != HashHelper.CreateSha256Hash(loginDto.Password))
+            if (Appuser.UserPassword != HashHelper.CreateSha256Hash(loginDto.Password))
             {
-                AppUser.FalseEntryCount++;
-                AppUser.IsBlocked = AppUser.FalseEntryCount == 5 ? true : false;
+                Appuser.FalseEntryCount++;
+                Appuser.IsBlocked = Appuser.FalseEntryCount == 5 ? true : false;
                    await _unitOfWork.SaveChangesAsync();
                 return new ApiDataResult<TokenDto>(null, Core.Utilities.Results.MVC.ComplexTypes.ApiResultStatus.BadRequest, Messages.User.GirisBilgileriHatali);
             }
 
-            if (AppUser.IsBlocked)
+            if (Appuser.IsBlocked)
             {
                 return new ApiDataResult<TokenDto>(null, Core.Utilities.Results.MVC.ComplexTypes.ApiResultStatus.BadRequest, Messages.User.KullaniciKilitli);
             }
 
-            var token = _tokenService.CreateToken(AppUser);
+            var token = _tokenService.CreateToken(Appuser);
 
-            var userRefreshToken = await _unitOfWork.GetGenericRepositories<AppToken>().GetAsync(x => x.AppUserId == AppUser.Id);
+            var userRefreshToken = await _unitOfWork.GetGenericRepositories<AppToken>().GetAsync(x => x.AppUserId == Appuser.Id);
             if (userRefreshToken == null)
             {
-                await _unitOfWork.GetGenericRepositories<AppToken>().CreateAsync(new AppToken { Id = 1, IsActive = true, CreatedUserId = AppUser.Id, ModifiedUserId = AppUser.Id, IsUsed = false, CreatedUserName = AppUser.UserName, ModifiedUserName = AppUser.UserName, AppUserId = AppUser.Id, RefreshToken = token.RefreshToken, ExpireDate = token.RefreshTokenExpiration });
+                await _unitOfWork.GetGenericRepositories<AppToken>().CreateAsync(new AppToken { Id = 1, IsActive = true, CreatedUserId = Appuser.Id, ModifiedUserId = Appuser.Id, IsUsed = false, CreatedUserName = Appuser.UserName, ModifiedUserName = Appuser.UserName, AppUserId = Appuser.Id, RefreshToken = token.RefreshToken, ExpireDate = token.RefreshTokenExpiration });
             }
             else
             {

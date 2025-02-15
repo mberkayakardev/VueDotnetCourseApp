@@ -12,8 +12,8 @@ using QuizApp.Repositories.EntityFramework.Concrete.Contexts;
 namespace Repositories.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250214203204_IntitalDeclare2")]
-    partial class IntitalDeclare2
+    [Migration("20250215091213_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -57,7 +57,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -68,10 +68,6 @@ namespace Repositories.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedUserName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -94,6 +90,24 @@ namespace Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AppUsers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedUserName = "SEED DATA",
+                            EmailConfirmed = true,
+                            FalseEntryCount = 0,
+                            IsActive = true,
+                            IsBlocked = false,
+                            ModifiedUserName = "SEED DATA",
+                            NormalizedUserEmail = "MBERKAYAKAR@GMAIL.COM",
+                            NormalizedUserName = "BERKAYAKAR",
+                            UserEmail = "mberkayakar@gmail.com",
+                            UserFullName = "Berkay Akar",
+                            UserName = "berkayakar",
+                            UserPassword = "F582683AD74581B6D032C43DDC351A8E37E58F3FDEF0178B48841B649C51868D"
+                        });
                 });
 
             modelBuilder.Entity("Core.Entities.Concrete.AppEntities.AppApplications", b =>
@@ -111,7 +125,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -123,7 +137,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -154,7 +168,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -174,7 +188,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -200,7 +214,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -212,7 +226,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -251,7 +265,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -263,7 +277,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -295,7 +309,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -307,7 +321,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -347,7 +361,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -359,7 +373,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -384,7 +398,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -402,7 +416,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -440,7 +454,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CreatedUserId")
+                    b.Property<int?>("CreatedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedUserName")
@@ -452,7 +466,7 @@ namespace Repositories.Migrations
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ModifiedUserId")
+                    b.Property<int?>("ModifiedUserId")
                         .HasColumnType("int");
 
                     b.Property<string>("ModifiedUserName")
@@ -468,6 +482,66 @@ namespace Repositories.Migrations
                     b.HasIndex("AppUserId");
 
                     b.ToTable("AppUserClaims");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.Courses.Courses", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CourseCoverImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CourseDescription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CourseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("CoursePrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("CreatedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CreatedUserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("ModifiedUserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModifiedUserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Courses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CourseCoverImage = "https://berkayakar.com.tr/StaticFiles/ProfilFoto.jpg",
+                            CourseDescription = "C# ile uygulama geliştirme yapılacak",
+                            CourseName = "C# Uygulama Geliştirme",
+                            CoursePrice = 12m,
+                            IsActive = true
+                        });
                 });
 
             modelBuilder.Entity("Core.Entities.Concrete.AppEntities.AppMenus", b =>

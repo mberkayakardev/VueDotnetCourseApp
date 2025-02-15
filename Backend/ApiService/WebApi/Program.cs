@@ -4,12 +4,25 @@ using Core.Utilities.Options.Api;
 using Core.Utilities.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
+using Scalar.AspNetCore;
 using Services.Abstract;
 using Services.Concrete.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
 
 
 builder.Services.AddControllers();
@@ -41,6 +54,8 @@ builder.Services.AddAuthentication(options =>
 });
 
 
+
+
 builder.Services.AddScoped<ICostumeAuthenticationService, CostumeAuthenticationService>();
 builder.Services.AddScoped<ITokenService, TokenManager>();
 
@@ -50,10 +65,14 @@ builder.Services.AddScoped<ITokenService, TokenManager>();
 
 var app = builder.Build();
 
+app.UseCors("AllowAll");
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();

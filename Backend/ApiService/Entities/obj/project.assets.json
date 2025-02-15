@@ -4635,11 +4635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Entities\\Entities.csproj",
+      "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Entities\\obj\\",
+      "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4661,8 +4661,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Core\\Core.csproj": {
-              "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Core\\Core.csproj"
+            "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Core\\Core.csproj": {
+              "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Core\\Core.csproj"
             }
           }
         }

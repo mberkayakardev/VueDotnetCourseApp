@@ -3,7 +3,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using QuizApp.Repositories.EntityFramework.Abstract;
 using QuizApp.Repositories.EntityFramework.Concrete.Contexts;
+using QuizApp.Repositories.EntityFramework.Concrete.Repositories;
 using QuizApp.Repositories.EntityFramework.Concrete.UnitOfWorks;
+using Services.Abstract;
+using Services.Concrete.Services;
 using System.Reflection;
 
 namespace ApiService.Services.Concrete.DependencyResolves.Microsoft
@@ -17,6 +20,8 @@ namespace ApiService.Services.Concrete.DependencyResolves.Microsoft
             AddConfiguration(services, configuration);
 
             AddServices(services, configuration);
+          
+            AddRepositories(services, configuration);
 
             AddUnitOfWork(services, configuration);
 
@@ -26,7 +31,11 @@ namespace ApiService.Services.Concrete.DependencyResolves.Microsoft
         
         }
 
-     
+        private static void AddRepositories(IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddScoped<IAppUserRepositories, EfAppUserRepositories>();
+        }
+
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(x =>
@@ -37,7 +46,7 @@ namespace ApiService.Services.Concrete.DependencyResolves.Microsoft
 
         private static void AddServices(IServiceCollection services, IConfiguration configuration)
         {
-
+            services.AddScoped<ICourseServices, CourseManager>();
         }
 
         private static void AddAutoMapper(IServiceCollection services, IConfiguration configuration)
@@ -47,10 +56,12 @@ namespace ApiService.Services.Concrete.DependencyResolves.Microsoft
         private static void AddFluentValidation(IServiceCollection services, IConfiguration configuration)
         {
 
+
         }
 
         private static void AddConfiguration(IServiceCollection services, IConfiguration configuration)
         {
+
         }
 
         private static void AddUnitOfWork(IServiceCollection services, IConfiguration configuration)

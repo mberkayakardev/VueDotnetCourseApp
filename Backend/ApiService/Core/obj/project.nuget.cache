@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nyhmk4IVQMg=",
+  "dgSpecHash": "xdVR06nz7yY=",
   "success": true,
-  "projectFilePath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mberk\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\mberk\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",

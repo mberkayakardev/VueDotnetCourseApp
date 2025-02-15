@@ -2082,6 +2082,9 @@
       "Dtos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Dtos.dll": {}
         },
@@ -6311,11 +6314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Services\\Services.csproj",
+      "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\mberk\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Services\\obj\\",
+      "outputPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6337,11 +6340,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Dtos\\Dtos.csproj": {
-              "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Dtos\\Dtos.csproj"
+            "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Dtos\\Dtos.csproj": {
+              "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Dtos\\Dtos.csproj"
             },
-            "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\Repositories.csproj"
+            "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\Repositories.csproj"
             }
           }
         }

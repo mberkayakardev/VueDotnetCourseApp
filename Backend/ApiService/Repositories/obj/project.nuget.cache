@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LoAsV1cS1XQ=",
+  "dgSpecHash": "2JN+FpdClps=",
   "success": true,
-  "projectFilePath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Repositories\\Repositories.csproj",
+  "projectFilePath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mberk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mberk\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Repositories.Migrations
 {
     /// <inheritdoc />
-    public partial class InitalCreate : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,9 +21,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -42,35 +42,14 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AppClaims", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "AppRoleClaims",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ClaimId = table.Column<int>(type: "int", nullable: false),
-                    RoleId = table.Column<int>(type: "int", nullable: false),
-                    IsActive = table.Column<bool>(type: "bit", nullable: false),
-                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
-                    CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
-                    ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AppRoleClaims", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -84,9 +63,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -105,7 +84,6 @@ namespace Repositories.Migrations
                     UserEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NormalizedUserEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     EmailConfirmed = table.Column<bool>(type: "bit", nullable: false),
-                    PasswordHash = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserFullName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserPassword = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsBlocked = table.Column<bool>(type: "bit", nullable: false),
@@ -113,14 +91,37 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AppUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Courses",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CourseName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CourseDescription = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CoursePrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    CourseCoverImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
+                    CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
+                    ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Courses", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -137,9 +138,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -160,47 +161,34 @@ namespace Repositories.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AppClaimAppRoleClaim",
+                name: "AppRoleClaims",
                 columns: table => new
                 {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ClaimId = table.Column<int>(type: "int", nullable: false),
+                    RoleId = table.Column<int>(type: "int", nullable: false),
+                    AppRolesId = table.Column<int>(type: "int", nullable: false),
                     AppClaimsId = table.Column<int>(type: "int", nullable: false),
-                    AppRoleClaimsId = table.Column<int>(type: "int", nullable: false)
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
+                    CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
+                    ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AppClaimAppRoleClaim", x => new { x.AppClaimsId, x.AppRoleClaimsId });
+                    table.PrimaryKey("PK_AppRoleClaims", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_AppClaimAppRoleClaim_AppClaims_AppClaimsId",
+                        name: "FK_AppRoleClaims_AppClaims_AppClaimsId",
                         column: x => x.AppClaimsId,
                         principalTable: "AppClaims",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_AppClaimAppRoleClaim_AppRoleClaims_AppRoleClaimsId",
-                        column: x => x.AppRoleClaimsId,
-                        principalTable: "AppRoleClaims",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "AppRoleAppRoleClaim",
-                columns: table => new
-                {
-                    AppRoleClaimsId = table.Column<int>(type: "int", nullable: false),
-                    AppRolesId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AppRoleAppRoleClaim", x => new { x.AppRoleClaimsId, x.AppRolesId });
-                    table.ForeignKey(
-                        name: "FK_AppRoleAppRoleClaim_AppRoleClaims_AppRoleClaimsId",
-                        column: x => x.AppRoleClaimsId,
-                        principalTable: "AppRoleClaims",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_AppRoleAppRoleClaim_AppRoles_AppRolesId",
+                        name: "FK_AppRoleClaims_AppRoles_AppRolesId",
                         column: x => x.AppRolesId,
                         principalTable: "AppRoles",
                         principalColumn: "Id",
@@ -220,9 +208,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -249,9 +237,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -283,9 +271,9 @@ namespace Repositories.Migrations
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ModifiedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    CreatedUserId = table.Column<int>(type: "int", nullable: false),
+                    CreatedUserId = table.Column<int>(type: "int", nullable: true),
                     CreatedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ModifiedUserId = table.Column<int>(type: "int", nullable: false),
+                    ModifiedUserId = table.Column<int>(type: "int", nullable: true),
                     ModifiedUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -305,10 +293,15 @@ namespace Repositories.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_AppClaimAppRoleClaim_AppRoleClaimsId",
-                table: "AppClaimAppRoleClaim",
-                column: "AppRoleClaimsId");
+            migrationBuilder.InsertData(
+                table: "AppUsers",
+                columns: new[] { "Id", "CreatedDate", "CreatedUserId", "CreatedUserName", "EmailConfirmed", "FalseEntryCount", "IsActive", "IsBlocked", "ModifiedDate", "ModifiedUserId", "ModifiedUserName", "NormalizedUserEmail", "NormalizedUserName", "UserEmail", "UserFullName", "UserName", "UserPassword" },
+                values: new object[] { 1, null, null, "SEED DATA", true, 0, true, false, null, null, "SEED DATA", "MBERKAYAKAR@GMAIL.COM", "BERKAYAKAR", "mberkayakar@gmail.com", "Berkay Akar", "berkayakar", "F582683AD74581B6D032C43DDC351A8E37E58F3FDEF0178B48841B649C51868D" });
+
+            migrationBuilder.InsertData(
+                table: "Courses",
+                columns: new[] { "Id", "CourseCoverImage", "CourseDescription", "CourseName", "CoursePrice", "CreatedDate", "CreatedUserId", "CreatedUserName", "IsActive", "ModifiedDate", "ModifiedUserId", "ModifiedUserName" },
+                values: new object[] { 1, "https://berkayakar.com.tr/StaticFiles/ProfilFoto.jpg", "C# ile uygulama geliştirme yapılacak", "C# Uygulama Geliştirme", 12m, null, null, null, true, null, null, null });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AppMenus_AppApplicationsId",
@@ -321,8 +314,13 @@ namespace Repositories.Migrations
                 column: "AppClaimId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_AppRoleAppRoleClaim_AppRolesId",
-                table: "AppRoleAppRoleClaim",
+                name: "IX_AppRoleClaims_AppClaimsId",
+                table: "AppRoleClaims",
+                column: "AppClaimsId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AppRoleClaims_AppRolesId",
+                table: "AppRoleClaims",
                 column: "AppRolesId");
 
             migrationBuilder.CreateIndex(
@@ -356,13 +354,10 @@ namespace Repositories.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "AppClaimAppRoleClaim");
-
-            migrationBuilder.DropTable(
                 name: "AppMenus");
 
             migrationBuilder.DropTable(
-                name: "AppRoleAppRoleClaim");
+                name: "AppRoleClaims");
 
             migrationBuilder.DropTable(
                 name: "AppTokens");
@@ -374,10 +369,10 @@ namespace Repositories.Migrations
                 name: "AppUserRoles");
 
             migrationBuilder.DropTable(
-                name: "AppApplications");
+                name: "Courses");
 
             migrationBuilder.DropTable(
-                name: "AppRoleClaims");
+                name: "AppApplications");
 
             migrationBuilder.DropTable(
                 name: "AppClaims");

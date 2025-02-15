@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yh1umfUkf8k=",
+  "dgSpecHash": "OBokB2LE2Ok=",
   "success": true,
-  "projectFilePath": "D:\\Github\\WebApiBestPractise-JWT-Ntier\\ApiService\\Services\\Services.csproj",
+  "projectFilePath": "D:\\Github\\BasicVueNetApp\\Backend\\ApiService\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mberk\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mberk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

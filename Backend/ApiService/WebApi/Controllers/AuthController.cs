@@ -6,7 +6,6 @@ using Services.Abstract;
 namespace UdemyAuthServer.API.Controllers
 {
     [Route("api/[controller]/[action]")]
-    [ApiController]
     public class AuthController : CostumeApiController
     {
         private readonly ICostumeAuthenticationService _authenticationService;
